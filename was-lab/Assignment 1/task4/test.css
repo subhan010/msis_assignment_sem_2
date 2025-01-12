@@ -1,0 +1,84 @@
+/* Change the font color of the <h1> heading */
+h1 {
+    color: rebeccapurple;
+}
+
+/* Set the background color of the page */
+body {
+    background-color: darkgray; /* Light blue shade */
+    font-family: Arial, sans-serif;
+}
+
+/* Set the font size of the paragraph <p> to 16px */
+p {
+    font-size: 16px;
+    color: #333; 
+    line-height: 1.5;
+}
+
+/* Style the list (<ul>) */
+ul {
+    list-style-type: circle; /* Add bullets */
+    margin-left: 20px;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0; /* Add margin of 10px to each list item */
+    color: #555; /* Slightly lighter gray */
+}
+
+/* Add a border and padding to a <div> container element */
+div {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff; /* White background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Additional enhancements */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: #fafafa; /* Slightly lighter table background */
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+table th {
+    background-color: #007acc; /* Blue header */
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row color */
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+audio, video {
+    display: block;
+    margin: 20px auto;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    width: 80%;
+    height: 300px;
+}
